@@ -22,23 +22,21 @@ import Dessert from "~/assets/images/dessert.png";
 import Mussels from "~/assets/images/mussels2.png";
 ---
 
-<Layout title="Home" pageTitle="Home" description="Welcome to our restaurant!">
+<Layout title="Osv Prestige" pageTitle="Osv Prestige" description="Eventos, asesoría y capacitación para restaurantes. Elevamos tu experiencia culinaria.">
 	<Section class:list={"bg-white"}>
 		<Hero>
 			<div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
-				<Badge title="il ristorante italiana" />
-				<h1 class="font-black">Real Italian food in a real Italian restaurant...</h1>
+				<Badge title="Excelencia Gastronómica" />
+				<h1 class="font-black">Elevando la Experiencia Culinaria</h1>
 
 				<p>
-					Experience the taste of Italy with our authentic dishes made from the finest ingredients. Indulge in
-					our wide variety of pizzas, pastas, and desserts, all crafted with love and tradition. Whether
-					you're dining in or taking out, we promise a memorable culinary experience.
+					Transformamos cada evento y restaurante con nuestra pasión por la gastronomía. Desde asesoría integral hasta la capacitación de personal y el diseño de cartas, creamos experiencias memorables.
 				</p>
 
-				<span class="text-brand-green font-medium">✔ We also deliver</span>
+				<span class="text-brand-green font-medium">✔ Eventos Personalizados y Asesoría Profesional</span>
 
 				<div class="mt-8 flex items-center gap-x-8">
-					<Button url="/book">Book now</Button>
+					<Button url="/contacto">Contáctanos</Button>
 					<ButtonCallUs />
 				</div>
 			</div>
@@ -48,7 +46,7 @@ import Mussels from "~/assets/images/mussels2.png";
 					src={PizzaHero}
 					height={600}
 					formats={["avif", "webp"]}
-					alt="A description of my image."
+					alt="Presentación de platos de alta calidad."
 					loading={"eager"}
 					fetchpriority={"high"}
 				/>
@@ -56,13 +54,13 @@ import Mussels from "~/assets/images/mussels2.png";
 		</Hero>
 	</Section>
 
-	<WideImage image={DecorativeImage} alt="Just an image" class:list={"aspect-video lg:aspect-[16/6]"} />
+	<WideImage image={DecorativeImage} alt="Ambiente elegante de evento." class:list={"aspect-video lg:aspect-[16/6]"} />
 
 	<Section class:list={"bg-white"}>
 		<Heading>
-			<h2 slot="heading-title" class="font-black text-brand-green h2">Our dishes</h2>
+			<h2 slot="heading-title" class="font-black text-brand-green h2">Nuestros Servicios</h2>
 			<p slot="heading-content">
-				Explore our selection of authentic Italian dishes, from classic pizzas to homemade pastas.
+				Descubre cómo podemos transformar tu evento o restaurante con nuestros servicios especializados.
 			</p>
 		</Heading>
 
@@ -73,12 +71,11 @@ import Mussels from "~/assets/images/mussels2.png";
 						class:list={"not-prose w-full h-auto"}
 						src={Pizza}
 						formats={["avif", "webp"]}
-						alt="A description of my image."
+						alt="Asesoría para restaurantes."
 					/>
-					<h3 class="h4 mt-0 font-black">Pasta &amp; Spaghetti</h3>
+					<h3 class="h4 mt-0 font-black">Asesoría Integral</h3>
 					<p>
-						Pasta is a staple of Italian cuisine, with a rich history dating back centuries. It comes in
-						various shapes and sizes, each suited to different sauces and preparations.
+						Optimizamos tu restaurante con estrategias personalizadas, desde la gestión hasta la experiencia del cliente.
 					</p>
 				</div>
 			</div>
@@ -89,12 +86,11 @@ import Mussels from "~/assets/images/mussels2.png";
 						class:list={"not-prose w-full h-auto"}
 						src={Spaghetti}
 						formats={["avif", "webp"]}
-						alt="A description of my image."
+						alt="Capacitación de personal."
 					/>
-					<h3 class="h4 mt-0 font-black">Pasta &amp; Spaghetti</h3>
+					<h3 class="h4 mt-0 font-black">Capacitación de Personal</h3>
 					<p>
-						Pasta is a staple of Italian cuisine, with a rich history dating back centuries. It comes in
-						various shapes and sizes, each suited to different sauces and preparations.
+						Desarrollamos habilidades en tu equipo, asegurando un servicio de alta calidad y profesionalismo.
 					</p>
 				</div>
 			</div>
@@ -105,12 +101,11 @@ import Mussels from "~/assets/images/mussels2.png";
 						class:list={"not-prose w-full h-auto"}
 						src={Fish}
 						formats={["avif", "webp"]}
-						alt="A description of my image."
+						alt="Diseño de cartas."
 					/>
-					<h3 class="h4 mt-0 font-black">Pasta &amp; Spaghetti</h3>
+					<h3 class="h4 mt-0 font-black">Diseño de Cartas</h3>
 					<p>
-						Pasta is a staple of Italian cuisine, with a rich history dating back centuries. It comes in
-						various shapes and sizes, each suited to different sauces and preparations.
+						Creamos cartas atractivas y funcionales que resaltan tus platos y mejoran la experiencia del cliente.
 					</p>
 				</div>
 			</div>
@@ -120,22 +115,18 @@ import Mussels from "~/assets/images/mussels2.png";
 	<Section class:list={"bg-white"}>
 		<Hero>
 			<div slot="hero-content-left" class="prose lg:order-2">
-				<h1 class="font-black">Pizza</h1>
+				<h1 class="font-black">Eventos Inolvidables</h1>
 
 				<p>
-					Pizza is a beloved dish that originated in Italy and has since become a global sensation. Its
-					versatility allows for endless combinations of toppings, from classic margherita with fresh
-					tomatoes, mozzarella, and basil, to more adventurous options like barbecue chicken or vegan cheese.
+					Nos especializamos en la creación de eventos únicos y memorables, adaptados a tus necesidades y superando tus expectativas.
 				</p>
 
 				<p>
-					Whether enjoyed at a cozy pizzeria or delivered to your doorstep, pizza brings people together and
-					satisfies cravings like no other food. Beyond its delicious taste, pizza also holds cultural
-					significance. It is often associated with gatherings, celebrations, and comfort.
+					Desde cenas íntimas hasta grandes celebraciones, cada detalle es cuidadosamente planeado para garantizar el éxito de tu evento.
 				</p>
 
 				<div class="mt-8">
-					<Button url="/menu">
+					<Button url="/eventos">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"
@@ -148,7 +139,7 @@ import Mussels from "~/assets/images/mussels2.png";
 								d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
 								clip-rule="evenodd"></path>
 						</svg>
-						View menu
+						Ver Eventos
 					</Button>
 				</div>
 			</div>
@@ -158,7 +149,7 @@ import Mussels from "~/assets/images/mussels2.png";
 					src={PizzaHero}
 					height={600}
 					formats={["avif", "webp"]}
-					alt="A description of my image."
+					alt="Eventos personalizados."
 				/>
 			</div>
 		</Hero>
@@ -167,19 +158,17 @@ import Mussels from "~/assets/images/mussels2.png";
 	<Section class:list={"bg-white"}>
 		<Hero>
 			<div slot="hero-content-left" class="prose max-w-none max-lg:order-1">
-				<Badge color="red" title="delicious" />
-				<h2 class="font-black h2 my-4">Plate of the week</h2>
+				<Badge color="red" title="Exclusividad" />
+				<h2 class="font-black h2 my-4">Experiencia Premium</h2>
 
-				<span class="text-brand-red text-2xl font-bold italic">Fresh Mussels!</span>
+				<span class="text-brand-red text-2xl font-bold italic">Platos Exclusivos y Servicios de Lujo</span>
 
 				<p>
-					Our plate of the week is a delicious dish that changes every week. This week, we're featuring fresh
-					mussels cooked in a white wine and garlic sauce, served with a side of crispy fries. Don't miss out
-					on this limited-time offer!
+					Ofrecemos platos exclusivos y servicios de lujo para eventos y restaurantes que buscan la máxima calidad y distinción. Descubre el sabor de la excelencia.
 				</p>
 
 				<div class="mt-8">
-					<Button color="red" url="/book">Book now</Button>
+					<Button color="red" url="/contacto">Solicita una Cotización</Button>
 				</div>
 			</div>
 			<div slot="hero-content-right">
@@ -188,25 +177,23 @@ import Mussels from "~/assets/images/mussels2.png";
 					src={Mussels}
 					height={600}
 					formats={["avif", "webp"]}
-					alt="A description of my image."
+					alt="Platos exclusivos."
 				/>
 			</div>
 		</Hero>
 	</Section>
 
-	<!-- Reviews -->
 	<Section class:list={"bg-brand-red/20 relative"}>
 		<div class="py-16">
 			<Hero>
 				<div slot="hero-content-left" class="prose max-w-none order-2">
 					<div class="text-center not-prose">
-						<Badge color="white" title="reviews" />
+						<Badge color="white" title="Testimonios" />
 					</div>
-					<h2 slot="heading-title" class="font-black h4 text-center mt-0 mb-4">What our customers say...</h2>
+					<h2 slot="heading-title" class="font-black h4 text-center mt-0 mb-4">Lo que dicen nuestros clientes...</h2>
 					<div slot="heading-content">
 						<p class="text-center">
-							Don't just take our word for it. Read what our customers have to say about their dining
-							experience at our restaurant.
+							Descubre cómo hemos transformado eventos y restaurantes con nuestros servicios.
 						</p>
 
 						<ReviewSlider />
@@ -214,7 +201,7 @@ import Mussels from "~/assets/images/mussels2.png";
 				</div>
 
 				<div slot="hero-content-right">
-					<Picture src={reviewAuthors} alt="Review authors" class="w-full h-auto" />
+					<Picture src={reviewAuthors} alt="Testimonios de clientes." class="w-full h-auto" />
 				</div>
 			</Hero>
 		</div>
@@ -243,60 +230,22 @@ import Mussels from "~/assets/images/mussels2.png";
 		</svg>
 	</Section>
 
-	<!-- Desserts -->
-	<Section class:list={"bg-white"}>
-		<Hero>
-			<div slot="hero-content-left" class="prose max-w-none order-2">
-				<Badge title="dolce" />
-				<h2 slot="heading-title" class="font-black text-brand-green h2 my-4">Desserts</h2>
-				<div slot="heading-content">
-					<p>
-						Indulge in our selection of sweet treats, from classic tiramisu to decadent chocolate cake. Our
-						desserts are the perfect way to end your meal on a high note.
-					</p>
-
-					<p>
-						Experience the taste of Italy with our authentic dishes made from the finest ingredients.
-						Indulge in our wide variety of pizzas, pastas, and desserts, all crafted with love and
-						tradition. Whether you're dining in or taking out, we promise a memorable culinary experience.
-					</p>
-
-					<div class="mt-8">
-						<Button url="/menu">See our menu</Button>
-					</div>
-				</div>
-			</div>
-
-			<div slot="hero-content-right">
-				<Picture
-					class:list={"mx-auto"}
-					src={Dessert}
-					height={600}
-					formats={["avif", "webp"]}
-					alt="A description of my image."
-				/>
-			</div>
-		</Hero>
-	</Section>
-
-	<!-- Contact -->
 	<Section class:list={"bg-white"}>
 		<Hero>
 			<div slot="hero-content-left" class="prose max-w-none">
-				<Badge color="red" title="benvenuto" />
-				<h2 slot="heading-title" class="font-black text-brand-red h2 my-4">Drop by and say hello</h2>
+				<Badge color="red" title="Contacto" />
+				<h2 slot="heading-title" class="font-black text-brand-red h2 my-4">Contáctanos</h2>
 				<div slot="heading-content">
 					<p>
-						We're located in the heart of the city, just a stone's throw away from the main square. Our
-						restaurant is the perfect place to enjoy a delicious meal with friends and family.
+						Estamos listos para llevar tu evento o restaurante al siguiente nivel. Contáctanos para descubrir cómo podemos ayudarte.
 					</p>
 
 					<span class="text-brand-red font-medium">
-						✔ We also do take-away, so you can enjoy your food at home
+						✔ Asesoría personalizada y soluciones a medida
 					</span>
 
 					<div class="mt-8">
-						<Button color="red" url="/book">Book a table</Button>
+						<Button color="red" url="/contacto">Solicitar Información</Button>
 					</div>
 				</div>
 			</div>
@@ -307,7 +256,7 @@ import Mussels from "~/assets/images/mussels2.png";
 					src={Dessert}
 					height={600}
 					formats={["avif", "webp"]}
-					alt="A description of my image."
+					alt="Contacto Osv Prestige."
 				/>
 			</div>
 		</Hero>

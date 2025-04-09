@@ -4,31 +4,31 @@ export const menuMain = [
         url: "/",
         highlighted: false,
     },
+    // {
+    //     name: "Menu",
+    //     url: "/menu",
+    //     highlighted: false,
+    // },
     {
-        name: "Menu",
-        url: "/menu",
-        highlighted: false,
-    },
-    {
-        name: "About Us",
+        name: "Sobre Nosotros",
         url: "/about-us",
         highlighted: false,
     },
+    // {
+    //     name: "Gallery",
+    //     url: "/gallery",
+    //     highlighted: false,
+    // },
     {
-        name: "Gallery",
-        url: "/gallery",
-        highlighted: false,
-    },
-    {
-        name: "Contact",
+        name: "Contactanos",
         url: "/contact",
         highlighted: false,
     },
-    {
-        name: "Book",
-        url: "/book",
-        highlighted: true,
-    },
+    // {
+    //     name: "Book",
+    //     url: "/book",
+    //     highlighted: true,
+    // },
 ];
 
 export const footerPrimary = [

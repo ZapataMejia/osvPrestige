@@ -1,27 +1,27 @@
 [
 	{
 		"id": 1,
-		"author": "Jane Doe",
-		"review": "The food was amazing! I loved the atmosphere and the service was great."
+		"author": "María López",
+		"review": "Gracias a su equipo, nuestro evento fue todo un éxito. La organización fue impecable, la comida deliciosa y la atención inigualable. Sin duda, la mejor decisión que pudimos tomar para nuestra celebración."
 	},
 	{
 		"id": 2,
-		"author": "John Smith",
-		"review": "The best Italian food I've ever had. I can't wait to come back!"
+		"author": "Carlos García",
+		"review": "El servicio fue excepcional. Cada detalle fue cuidadosamente pensado y el menú superó nuestras expectativas. Recomendamos totalmente sus servicios para cualquier tipo de evento. ¡Volveremos a contratar!"
 	},
 	{
 		"id": 3,
-		"author": "Alice Johnson",
-		"review": "The pasta was perfectly cooked and the sauce was delicious. I highly recommend this restaurant."
+		"author": "Ana Sánchez",
+		"review": "Nos ayudaron a crear una experiencia única en nuestro evento. La comida estuvo increíble y todos nuestros invitados quedaron impresionados. No solo contrataríamos nuevamente, sino que lo recomendaríamos a todos los que estén buscando algo especial."
 	},
 	{
 		"id": 4,
-		"author": "Bob Brown",
-		"review": "The pizza was fantastic! I will definitely be ordering from here again."
+		"author": "Fernando Martínez",
+		"review": "Nuestro evento de empresa fue todo un éxito gracias a ellos. Desde la decoración hasta la comida, todo fue perfecto. Nos ayudaron a crear una experiencia única y memorable para todos los asistentes. ¡Los mejores!"
 	},
 	{
 		"id": 5,
-		"author": "Sarah Wilson",
-		"review": "The tiramisu was to die for. I will be dreaming about it for weeks."
+		"author": "Laura Pérez",
+		"review": "Organizamos nuestra boda con ellos y fue más de lo que imaginamos. La comida estaba deliciosa, el servicio fue puntual y muy profesional. Sin duda, si estás buscando una experiencia gastronómica única para tu evento, ellos son la opción ideal."
 	}
 ]
